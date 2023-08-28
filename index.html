@@ -1,67 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parallax Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    
     <!-- <script src="app.js"></script>  -->
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <img src="logo.png" alt="Travelo" class="logo">
-            <ul>
-                <li>
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="#"> Sign up</a>
-                </li>
-                <li class="search">
-                    <a href="#">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </a>
-                    
-                </li>
-                <li class="hamburger">
-                    <a href="#">
-                        <div class="bar"></div>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        
+      <nav>
+        <img src="logo.png" alt="Travelo" class="logo" />
+        <ul>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#"> Sign up</a>
+          </li>
+          <li class="search">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="hamburger">
+            <a href="#">
+              <div class="bar"></div>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="vignette"></div>
-        <img src="background.png"data-speedx="0.2" data-speedy="0.1" class="parallax bg-img">
-        <img src="fog_7.png" data-speedx="0.27" data-speedy="0.10" class="parallax fog-7">
-        <img src="mountain_10.png" data-speedx="0.195" data-speedy="0.02" class="parallax mountain-10">
-        <img src="fog_6.png" data-speedx="0.25" data-speedy="0.01"  class="parallax fog-6">
-        <img src="mountain_8.png" data-speedx="0.1" data-speedy="0.1" class="parallax mountain-8">
-        <img src="fog_5.png" data-speedx="0.16" data-speedy="0.10" class="parallax fog-5">
-        <img src="mountain_7.png" data-speedx="0.1" data-speedy="0.05" class="parallax mountain-7">
-        <div class="parallax text">
-            <h2>Hello, </h2>
-            <h1>World</h1>
-        </div>
-        <img src="mountain_6.png" data-speedx="0.065" data-speedy="0.025" class="parallax mountain-6">
-        <img src="fog_4.png" data-speedx="0.135" data-speedy="0.05" class="parallax fog-4">
-        <img src="mountain_5.png" data-speedx="0.08" data-speedy="0.02" class="parallax mountain-5">
-        <img src="fog_3.png" data-speedx="0.11" data-speedy="0.06" class="parallax fog-3">
-        <img src="mountain_4.png" data-speedx="0.059" data-speedy="0.02" class="parallax mountain-4">
-        <img src="mountain_3.png" data-speedx="0.04" data-speedy="0.01" class="parallax mountain-3">
-        <img src="fog_2.png" data-speedx="0.15" data-speedy="0.03" class="parallax fog-2">
-        <img src="mountain_2.png" data-speedx="0.0235" data-speedy="0.0135" class="parallax mountain-2">
-        <img src="mountain_1.png" data-speedx="0.027" data-speedy="0.013" class="parallax mountain-1">
-        <img src="sun_rays.png"  class="parallax sun-rays">
-        <img src="black_shadow.png"  class="parallax black-shadow">
-        <img src="fog_1.png" data-speedx="0.12" data-speedy="0.2" class="parallax fog-1">
-        
+      <div class="vignette"></div>
+      <img
+        src="background.png"
+        data-speedx="0.2"
+        data-speedy="0.1"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax bg-img"
+        data-distance="-200"
+      />
+      <img
+        src="fog_7.png"
+        data-speedx="0.27"
+        data-speedy="0.10"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax fog-7"
+        data-distance="850"
+      />
+      <img
+        src="mountain_10.png"
+        data-speedx="0.195"
+        data-speedy="0.02"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax mountain-10"
+        data-distance="1200"
+      />
+      <img
+        src="fog_6.png"
+        data-speedx="0.25"
+        data-speedy="0.01"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax fog-6"
+        data-distance="1500"
+      />
+      <img
+        src="mountain_8.png"
+        data-speedx="0.1"
+        data-speedy="0.1"
+        data-speedz="0.2"
+        data-rotation="0"
+        class="parallax mountain-8"
+        data-distance="1700"
+      />
+      <img
+        src="fog_5.png"
+        data-speedx="0.16"
+        data-speedy="0.10"
+        data-speedz="0.125"
+        data-rotation="0"
+        class="parallax fog-5"
+        data-distance="1800"
+      />
+      <img
+        src="mountain_7.png"
+        data-speedx="0.1"
+        data-speedy="0.05"
+        data-speedz="0.063"
+        data-rotation="0"
+        class="parallax mountain-7"
+        data-distance="2000"
+      />
+      <div class="parallax text">
+        <h2>Hello,</h2>
+        <h1>World</h1>
+      </div>
+      <img
+        src="mountain_6.png"
+        data-speedx="0.065"
+        data-speedy="0.025"
+        data-speedz="0.352"
+        data-rotation="0.163"
+        class="parallax mountain-6"
+        data-distance="2400"
+      />
+      <img
+        src="fog_4.png"
+        data-speedx="0.135"
+        data-speedy="0.05"
+        data-speedz="0.324"
+        data-rotation="0.197"
+        class="parallax fog-4"
+        data-distance="2700"
+      />
+      <img
+        src="mountain_5.png"
+        data-speedx="0.08"
+        data-speedy="0.02"
+        data-speedz="0.532"
+        data-rotation="0.2"
+        class="parallax mountain-5"
+        data-distance="2900"
+      />
+      <img
+        src="fog_3.png"
+        data-speedx="0.11"
+        data-speedy="0.06"
+        data-speedz="0.0675"
+        data-rotation="0.23"
+        class="parallax fog-3"
+        data-distance="3400"
+      />
+      <img
+        src="mountain_4.png"
+        data-speedx="0.059"
+        data-speedy="0.02"
+        data-speedz="0.099"
+        data-rotation="0.03"
+        class="parallax mountain-4"
+        data-distance="3700"
+      />
+      <img
+        src="mountain_3.png"
+        data-speedx="0.04"
+        data-speedy="0.01"
+        data-speedz="0.345"
+        data-rotation="0.045"
+        class="parallax mountain-3"
+        data-distance="4100"
+      />
+      <img
+        src="fog_2.png"
+        data-speedx="0.15"
+        data-speedy="0.03"
+        data-speedz="0.56"
+        data-rotation=""
+        class="parallax fog-2"
+        data-distance="4300"
+      />
+      <img
+        src="mountain_2.png"
+        data-speedx="0.0235"
+        data-speedy="0.0135"
+        data-speedz="0.31"
+        data-rotation="0.21"
+        class="parallax mountain-2"
+        data-distance="4700"
+      />
+      <img
+        src="mountain_1.png"
+        data-speedx="0.027"
+        data-speedy="0.013"
+        data-speedz="0.21"
+        data-rotation="0.45"
+        class="parallax mountain-1"
+        data-distance="4900"
+      />
+      <img src="sun_rays.png" class="parallax sun-rays" />
+      <img src="black_shadow.png" class="parallax black-shadow" />
+      <img
+        src="fog_1.png"
+        data-speedx="0.12"
+        data-speedy="0.2"
+        data-speedz="0.3"
+        data-rotation="0.362"
+        class="parallax fog-1"
+        data-distance="5100"
+      />
     </main>
+
+<!--     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script> -->
     <script src="app.js"></script>
-    
-</body>
+  </body>
 </html>
